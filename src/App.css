@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  align-items: center;
 }
 .Header {
   -webkit-text-stroke-width: 1px;
@@ -15,12 +16,22 @@
 /* write your parent styles in here for your App.js */
 
 .character-wrapper {
+  background-color: rgba(255, 232, 31, .7);
+  font-size: 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: white;
+  width: 20vw;
+  margin: 2%;
+  border-radius: 5%;
+  padding: 2%;
+  
+
 }
 
-.info-wrapper {
-  /* display */
+
+.character-wrapper p  {
+  font-size: 1rem;
+  color: black;
 }

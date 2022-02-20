@@ -9,17 +9,16 @@ const Characters = (props) => {
             {props.data.map(user => {
                 return (
                     <div key={user.name} className="character-wrapper">
+                        
                         <h1 className="name">{user.name}</h1>
-                        <div className="info-wrapper">
                             <p>Height: {user.height}</p>
                             <p>Mass: {user.mass}</p>
                             <p>Born In: {user.birth_year}</p>
                             <p>Number of Films: {(user.films.length)}</p>
-                        </div>
-
-
-
+                        
+                        
                     </div>
+                    
                 )
             })}
         </>
