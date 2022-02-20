@@ -1,6 +1,7 @@
 .App {
   font-size: 62.5%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
 }
@@ -14,5 +15,12 @@
 /* write your parent styles in here for your App.js */
 
 .character-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: white;
+}
+
+.info-wrapper {
+  /* display */
 }
